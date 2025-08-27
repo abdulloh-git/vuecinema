@@ -92,6 +92,7 @@
   top: 0;
   right: 0;
   left: 0;
+  bottom: 0;
   background: linear-gradient(
     180deg,
     rgba(241, 129, 40, 0.35) 0%,
@@ -101,14 +102,14 @@
   z-index: -1;
 }
 
-@media screen and (max-width: 1140) {
+@media screen and (max-width: 1140px) {
   .films__wrap {
     grid-template-columns: repeat(2, 255px);
     justify-content: center;
   }
 }
 
-@media screen and (max-width: 568) {
+@media screen and (max-width: 568px) {
   .films__wrap {
     grid-template-columns: 255px;
   }
